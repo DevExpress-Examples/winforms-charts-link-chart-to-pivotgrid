@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Pivot_Chart_1/Form1.cs) (VB: [Form1.vb](./VB/Pivot_Chart_1/Form1.vb))
+<!-- default file list end -->
 # How to link a chart to an XtraPivotGrid control
 
 
