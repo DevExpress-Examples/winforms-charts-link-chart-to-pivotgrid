@@ -10,10 +10,9 @@
 <!-- default file list end -->
 # How to link a chart to an XtraPivotGrid control
 
-
-<p>This example demonstrates how you can link a ChartControl to a PivotGridControl.</p><br />
+<p>This example demonstrates how you can link a ChartControl to a PivotGridControl.</p>
 <p>For an illustrated step-by-step tutorial, refer to the following document in our online documentation: <a href="http://help.devexpress.com/#WindowsForms/CustomDocument5677"><u>How to: Link a Chart to the PivotGridControl's Data Source</u></a>.</p>
 
-<br/>
+## Documentation
 
-
+* [Pivot Charting (Integration with a Pivot Grid Control)](https://docs.devexpress.com/WindowsForms/8695/controls-and-libraries/chart-control/provide-data/pivot-charting-integration-with-a-pivot-grid-control)
