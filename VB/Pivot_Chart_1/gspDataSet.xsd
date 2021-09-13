@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="gspConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="gspConnectionString (Settings)" PropertyReference="ApplicationSettings.Pivot_Chart_1.Properties.Settings.GlobalReference.Default.gspConnectionString" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="gspConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="gspConnectionString (Settings)" PropertyReference="ApplicationSettings.Pivot_Chart.Properties.Settings.GlobalReference.Default.gspConnectionString" Provider="System.Data.OleDb" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GSPTableAdapter" GeneratorDataComponentClassName="GSPTableAdapter" Name="GSP" UserDataComponentName="GSPTableAdapter">
@@ -75,7 +75,7 @@
   <xs:element name="gspDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="gspDataSet" msprop:Generator_UserDSName="gspDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="GSP" msprop:Generator_TableClassName="GSPDataTable" msprop:Generator_TableVarName="tableGSP" msprop:Generator_TablePropName="GSP" msprop:Generator_RowDeletingName="GSPRowDeleting" msprop:Generator_UserTableName="GSP" msprop:Generator_RowChangingName="GSPRowChanging" msprop:Generator_RowEvHandlerName="GSPRowChangeEventHandler" msprop:Generator_RowDeletedName="GSPRowDeleted" msprop:Generator_RowEvArgName="GSPRowChangeEvent" msprop:Generator_RowChangedName="GSPRowChanged" msprop:Generator_RowClassName="GSPRow">
+        <xs:element name="GSP" msprop:Generator_TableClassName="GSPDataTable" msprop:Generator_TableVarName="tableGSP" msprop:Generator_RowChangedName="GSPRowChanged" msprop:Generator_TablePropName="GSP" msprop:Generator_RowDeletingName="GSPRowDeleting" msprop:Generator_RowChangingName="GSPRowChanging" msprop:Generator_RowEvHandlerName="GSPRowChangeEventHandler" msprop:Generator_RowDeletedName="GSPRowDeleted" msprop:Generator_RowClassName="GSPRow" msprop:Generator_UserTableName="GSP" msprop:Generator_RowEvArgName="GSPRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
